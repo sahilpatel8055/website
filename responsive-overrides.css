@@ -1,0 +1,33 @@
+/* -----------------------------------------
+   Responsive overrides for: MUJ Online Degree Courses - Online Manipal
+   Usage: include this file AFTER all existing theme CSS links.
+   -------------------------------------------- */
+:root{
+  --container-max: 1200px;
+  --gap-m: 1rem;
+}
+img, video { max-width: 100%; height: auto; }
+body{font-family: "HelveticaNowDisplay", sans-serif; font-size:18px; color:#575757;}
+/* (Truncated: full CSS provided in canvas earlier, paste that full content here in actual repo) */
+
+
+/* Custom color scheme */
+body {
+  background: #ffffff;
+  color: #333;
+}
+section:nth-child(even) {
+  background: #fff1f1;
+}
+a, .btn, button {
+  background-color: orange;
+  color: #fff;
+}
+footer a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 5px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
